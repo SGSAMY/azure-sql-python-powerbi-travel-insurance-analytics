@@ -2,7 +2,7 @@
 
 ## End-to-End Azure SQL, Python, Data Engineering & Power BI Analytics Solution
 
-![Executive Dashboard](screenshots/dashboard_preview.png)
+![Executive Dashboard](screenshots/dashboard%20preview.png)
 
 ---
 
