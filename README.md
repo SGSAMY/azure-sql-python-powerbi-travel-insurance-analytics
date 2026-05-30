@@ -135,7 +135,7 @@ TravelInsuranceDB
 Azure SQL Server:
 
 ```sql
-travelins.database.windows.net
+traxxxx.daxxxse.windows.net
 ```
 
 ---
