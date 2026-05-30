@@ -588,15 +588,13 @@ Premium revenue is heavily influenced by:
 
 ---
 
-## Customer Value
+## Key Insights
 
-Gold and Platinum customers generate the highest revenue and customer lifetime value.
-
----
-
-## Churn Analysis
-
-Premium cover customers exhibit lower churn risk than Basic cover customers.
+- Gold and Platinum customers generate the highest premium revenue.
+- Premium cover customers exhibit lower churn risk.
+- Retain and Upsell are the most frequent recommended retention actions.
+- Annual Multi Trip and Backpacker products generate the highest revenue.
+- Customer Lifetime Value strongly influences renewal probability.
 
 ---
 
@@ -687,7 +685,7 @@ Azure SQL • Python • SQL • Power BI • DAX • Customer Analytics • Ret
 
 ### LinkedIn
 
-Add your LinkedIn profile URL here.
+https://www.linkedin.com/in/satheeshgurusamy
 
 ### GitHub
 
