@@ -61,7 +61,7 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 - Interactive Reporting
 ---
 
-# Business Scenario
+## Business Scenario
 
 Travel insurance providers need to understand:
 
