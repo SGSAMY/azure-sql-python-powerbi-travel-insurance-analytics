@@ -20,6 +20,23 @@ The objective was to simulate a real-world Travel Insurance analytics platform c
 
 ---
 
+## Skills Demonstrated
+
+- Azure SQL Database
+- SQL Development
+- Data Engineering
+- Python
+- Pandas
+- Exploratory Data Analysis
+- Feature Engineering
+- Power BI
+- DAX
+- Customer Analytics
+- Churn Analytics
+- Customer Segmentation
+
+  ---
+
 ## Business Scenario
 
 Travel insurance providers need to understand:
