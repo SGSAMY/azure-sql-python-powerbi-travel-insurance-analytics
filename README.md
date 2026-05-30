@@ -626,14 +626,6 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 ---
 
-# Dashboard Preview
-
-## Executive Dashboard
-
-![Executive Dashboard](screenshots/dashboard%20preview.png)
-
----
-
 ## Customer Churn Risk Distribution
 
 ![Customer Churn Risk Distribution](screenshots/Customer%20Churn%20Risk%20Distribution.png)
