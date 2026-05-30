@@ -2,8 +2,6 @@
 
 ## End-to-End Azure SQL, Python, Data Engineering & Power BI Analytics Solution
 
-# Travel Insurance Customer Retention & Revenue Analytics
-
 ![Executive Dashboard](screenshots/dashboard_preview.png)
 
 ---
