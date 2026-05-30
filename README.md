@@ -653,13 +653,31 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 ![Azure SQL Login](screenshots/Azure%20login.png)
 ---
 
+## Repository Structure
+
+```text
+data/
+powerbi/
+python/
+screenshots/
+sql/
+README.md
+```
+## Future Enhancements
+
+- Machine Learning Churn Prediction Model
+- Automated Azure Data Factory Pipeline
+- Power BI Service Deployment
+- Incremental Data Refresh
+- Customer Lifetime Value Forecasting
+  
 # Author
 
 ## Satheesh Gurusamy
 
 Senior Marketing Data Analyst | Business Intelligence Professional
 
-### Technology Stack
+### Core Competencies
 
 Azure SQL • Python • SQL • Power BI • DAX • Customer Analytics • Retention Analytics • Revenue Analytics
 
