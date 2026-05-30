@@ -2,6 +2,10 @@
 
 ## End-to-End Azure SQL, Python, Data Engineering & Power BI Analytics Solution
 
+# Travel Insurance Customer Retention & Revenue Analytics
+
+![Executive Dashboard](screenshots/dashboard_preview.png)
+
 ---
 
 ## Project Overview
@@ -19,6 +23,15 @@ The objective was to simulate a real-world Travel Insurance analytics platform c
 - Providing actionable insights for revenue growth, customer retention, and churn reduction
 
   ---
+
+  ## Project Highlights
+
+- End-to-end Azure SQL, Python and Power BI analytics solution
+- Designed a multi-layer Azure SQL architecture (Raw, Clean, Analytics, Enriched)
+- Performed exploratory data analysis and feature engineering using Python and Pandas
+- Developed customer segmentation, churn risk and next best action models
+- Created SQL analytics views for business reporting
+- Built an interactive Power BI dashboard for revenue, retention and customer analytics
 
 ## Business Scenario
 
