@@ -548,36 +548,26 @@ to identify revenue drivers and retention opportunities.
 
 ---
 
-# Key Business Insights
+## Key Business Insights
 
-## Customer Retention
+### Customer Retention
 
-The majority of high-risk customers require:
+- The majority of high-risk customers require **Retain** and **Upsell** interventions.
+- Retain and Upsell are the most frequently recommended customer retention actions.
+- Customer Lifetime Value (CLV) strongly influences renewal probability and retention outcomes.
 
-- Retain
-- Upsell
+### Revenue Drivers
 
-actions.
+- Premium revenue is heavily influenced by **Product Type**, **Customer Segment**, and **Cover Level**.
+- Gold and Platinum customer segments generate the highest premium revenue and customer lifetime value.
+- Annual Multi Trip and Backpacker products generate the highest premium revenue.
+- Premium cover customers exhibit lower churn risk compared to Basic cover customers.
 
----
+### Strategic Recommendations
 
-## Revenue Drivers
-
-Premium revenue is heavily influenced by:
-
-- Product Type
-- Customer Segment
-- Cover Level
-
----
-
-## Key Insights
-
-- Gold and Platinum customers generate the highest premium revenue.
-- Premium cover customers exhibit lower churn risk.
-- Retain and Upsell are the most frequent recommended retention actions.
-- Annual Multi Trip and Backpacker products generate the highest revenue.
-- Customer Lifetime Value strongly influences renewal probability.
+- Prioritise retention campaigns for high-risk, high-value customers.
+- Increase Upsell opportunities among customers with strong renewal potential.
+- Focus marketing efforts on high-performing products and customer segments to maximise revenue growth.
 
 ---
 
