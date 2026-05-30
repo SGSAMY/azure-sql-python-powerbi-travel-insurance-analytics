@@ -629,20 +629,33 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 # Dashboard Preview
 
-> Add screenshots from the Power BI dashboard here.
+## Executive Dashboard
 
-### Executive Dashboard
+![Executive Dashboard](screenshots/dashboard%20preview.png)
 
-![Executive Dashboard](screenshots/executive_dashboard.png)
+---
 
-### Azure SQL Architecture
+## Customer Churn Risk Distribution
 
-![Azure SQL](screenshots/azure_sql_database.png)
+![Customer Churn Risk Distribution](screenshots/Customer%20Churn%20Risk%20Distribution.png)
 
-### Python EDA
+---
 
-![Python EDA](screenshots/python_eda.png)
+## Correlation Analysis
 
+![Correlation Analysis](screenshots/Corellation%20metrics.png)
+
+---
+
+## Azure SQL Database Connection from Power BI
+
+![Power BI Azure SQL Connection](screenshots/Loading%20data%20to%20Power%20BI%20from%20Azure%20DB.png)
+
+---
+
+## Azure SQL Login Configuration
+
+![Azure SQL Login](screenshots/login.png)
 ---
 
 # Author
