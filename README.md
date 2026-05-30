@@ -12,28 +12,21 @@
 
 ## Project Overview
 
-This project demonstrates an end-to-end Business Intelligence and Customer Analytics solution built using Azure SQL Database, Python, Pandas, SQLAlchemy, DAX, and Power BI.
+This project demonstrates an end-to-end Business Intelligence and Customer Analytics solution built using Azure SQL Database, Python, SQLAlchemy, DAX, and Power BI.
 
-The objective was to simulate a real-world Travel Insurance analytics platform capable of:
-
-- Loading raw customer and policy data into Azure SQL Database
-- Performing data cleansing and transformation
-- Conducting exploratory data analysis (EDA)
-- Creating analytical features for customer segmentation and retention analysis
-- Building business-focused SQL views
-- Developing an interactive executive Power BI dashboard
-- Providing actionable insights for revenue growth, customer retention, and churn reduction
+The solution was designed to simulate a real-world Travel Insurance analytics platform, transforming raw customer and policy data into actionable business insights that support customer retention, revenue optimisation, and strategic decision-making.
 
   ---
 
-  ## Project Highlights
+## Project Highlights
 
-- End-to-end Azure SQL, Python and Power BI analytics solution
-- Designed a multi-layer Azure SQL architecture (Raw, Clean, Analytics, Enriched)
-- Performed exploratory data analysis and feature engineering using Python and Pandas
-- Developed customer segmentation, churn risk and next best action models
-- Created SQL analytics views for business reporting
-- Built an interactive Power BI dashboard for revenue, retention and customer analytics
+- Designed and implemented a multi-layer Azure SQL architecture (Raw, Clean, Analytics, Enriched)
+- Loaded and transformed travel insurance policy data in Azure SQL Database
+- Performed exploratory data analysis (EDA) using Python and Pandas
+- Developed customer segmentation, churn risk, and next best action models
+- Created SQL analytics views for business reporting and performance monitoring
+- Built an interactive Power BI dashboard with KPI reporting, churn analytics, retention insights, and revenue analysis
+- Delivered actionable recommendations to support customer retention and revenue growth
 
 ## Business Scenario
 
