@@ -576,10 +576,6 @@ README.md
 
 ## Satheesh Gurusamy
 
-### Core Competencies
-
-Azure SQL • Python • SQL • Power BI • DAX • Customer Analytics • Retention Analytics • Revenue Analytics
-
 ### LinkedIn
 
 https://www.linkedin.com/in/satheeshgurusamy
