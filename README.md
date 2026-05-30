@@ -655,7 +655,7 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 ## Azure SQL Login Configuration
 
-![Azure SQL Login](screenshots/login.png)
+![Azure SQL Login](screenshots/Azure login.png)
 ---
 
 # Author
