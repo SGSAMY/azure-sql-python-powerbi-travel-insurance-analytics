@@ -166,7 +166,7 @@ A synthetic Travel Insurance dataset containing approximately 8,000 customer rec
 
 ---
 
-# Azure SQL Implementation
+## Azure SQL Architecture
 
 The travel insurance dataset was loaded into Azure SQL Database and organised into a multi-layer architecture:
 
@@ -176,10 +176,6 @@ The travel insurance dataset was loaded into Azure SQL Database and organised in
 - travel_insurance_enriched
 
 Azure SQL was configured to support connectivity from SSMS, Python and Power BI.
-
----
-
-## Data Engineering & SQL Architecture
 
 The Azure SQL solution was designed using a multi-layer architecture to support data quality, analytics, and reporting.
 
@@ -204,120 +200,54 @@ Key transformations included:
 
 ---
 
-Additional business dimensions added through Python:
+## Python Integration, EDA & Feature Engineering
 
-- Product
-- Region
-- Destination
-- Cover_Level
-- Customer_Segment
-- Sales_Channel
-- Next_Best_Action
-- Policy_Sale_Date
+Python was used to connect to Azure SQL Database, perform exploratory data analysis (EDA), engineer analytical features, and write enriched datasets back to Azure SQL for reporting and dashboard development.
 
----
+### Technologies Used
 
-# Exploratory Data Analysis (EDA)
-
-Performed EDA using:
-
+- Python
 - Pandas
+- SQLAlchemy
+- ODBC Driver 18 for SQL Server
 - Matplotlib
 
-## Dataset Validation
+### Key Activities
+
+- Data extraction from Azure SQL Database
+- Dataset validation and profiling
+- Exploratory data analysis (EDA)
+- Churn risk and renewal probability analysis
+- Customer Lifetime Value (CLV) assessment
+- Correlation analysis between key business metrics
+- Customer segmentation
+- Feature engineering
+- Next Best Action modelling
+- Writing enriched datasets back to Azure SQL
+
+### Analytical Features Created
+
+- Churn Risk Band (Low, Medium, High)
+- CLV Band (Low Value, Medium Value, High Value)
+- Claim Status (Claim / No Claim)
+- Renewal Band (Likely Renew, Possible Renew, Unlikely Renew)
+- Customer Segment (Bronze, Silver, Gold, Platinum)
+- Next Best Action (Retain, Upsell, Cross Sell, Reactivate, No Action)
+- Policy Sale Date for Year-over-Year (YoY) analysis
+
+### Azure SQL Connection Example
 
 ```python
-df.shape
-df.info()
-df.describe()
+from sqlalchemy import create_engine
+import pandas as pd
+
+engine = create_engine(connection_string)
+
+df = pd.read_sql(
+    "SELECT * FROM dbo.travel_insurance_enriched",
+    engine
+)
 ```
-
----
-
-## Churn Risk Distribution
-
-Histogram analysis conducted on:
-
-```python
-Churn_Risk_Score
-```
-
-to identify high-risk customer populations.
-
----
-
-# Summary Statistics
-
-Analysed:
-
-- Premium Amount
-- Claim Amount
-- Renewal Probability
-- Churn Risk Score
-- Customer Lifetime Value
-
----
-
-# Feature Engineering
-
-Created business-oriented analytical fields.
-
----
-
-## Churn Risk Band
-
-- Low
-- Medium
-- High
-
----
-
-## CLV Band
-
-- Low Value
-- Medium Value
-- High Value
-
----
-
-## Claim Status
-
-- Claim
-- No Claim
-
----
-
-## Renewal Band
-
-- Likely Renew
-- Possible Renew
-- Unlikely Renew
-
----
-
-## Customer Segmentation
-
-- Bronze
-- Silver
-- Gold
-- Platinum
-
-based on customer value and engagement.
-
----
-
-## Next Best Action Model
-
-Generated customer retention actions:
-
-- Retain
-- Upsell
-- Cross Sell
-- Reactivate
-- No Action
-
-based on churn risk and customer value.
-
 ---
 
 # SQL Analytics Views
@@ -521,3 +451,6 @@ The Azure SQL Database was connected directly to Power BI Desktop using SQL Serv
 # LinkedIn
 
 https://www.linkedin.com/in/satheeshgurusamy
+
+# GitHub:
+https://github.com/SGSAMY
