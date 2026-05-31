@@ -6,11 +6,11 @@
 
 ![Executive Dashboard](screenshots/dashboard%20preview.png)
 
-## End-to-End Azure SQL, Python, Data Engineering & Power BI Analytics Solution
+# End-to-End Azure SQL, Python, Data Engineering & Power BI Analytics Solution
 
 ---
 
-## Project Overview
+# Project Overview
 
 This project demonstrates an end-to-end Business Intelligence and Customer Analytics solution built using Azure SQL Database, Python, SQLAlchemy, DAX, and Power BI.
 
@@ -18,7 +18,7 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 
   ---
 
-## Project Highlights
+# Project Highlights
 
 - Designed and implemented a multi-layer Azure SQL architecture (Raw, Clean, Analytics, Enriched)
 - Loaded and transformed travel insurance policy data in Azure SQL Database
