@@ -550,6 +550,18 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 ---
 
+## Azure SQL Server
+
+![Azure SQL Server](screenshots/azure_sql_server_overview.png)
+
+---
+
+## Azure SQL Database
+
+![Azure SQL Database](screenshots/azure_sql_database_overview.png)
+
+---
+
 ## Azure SQL Login Configuration
 
 ![Azure SQL Login](screenshots/Azure%20login.png)
