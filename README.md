@@ -347,6 +347,8 @@ to identify revenue drivers and retention opportunities.
 
 ---
 
+---
+
 ## Sample DAX Modelling
 
 The Power BI dashboard was developed using DAX calculated columns, calculated tables, and measures to support KPI reporting, customer analytics, and performance monitoring.
@@ -362,9 +364,11 @@ SWITCH(
     travel_insurance_enriched[Customer_Lifetime_Value_GBP] >= 1000, "Silver",
     "Bronze"
 )
+```
 
-Customer Segment Summary (Calculated Table)
+### Customer Segment Summary (Calculated Table)
 
+```DAX
 Customer Segment Summary =
 SUMMARIZE(
     travel_insurance_enriched,
@@ -373,15 +377,19 @@ SUMMARIZE(
     "Total Premium", SUM(travel_insurance_enriched[Premium_GBP]),
     "Average CLV", AVERAGE(travel_insurance_enriched[Customer_Lifetime_Value_GBP])
 )
+```
 
-High Risk Customers (Measure)
+### High Risk Customers (Measure)
 
+```DAX
 High Risk Customers =
 CALCULATE(
     COUNTROWS(travel_insurance_enriched),
     travel_insurance_enriched[Churn_Risk_Score] > 0.6
 )
 ```
+
+---
 ---
 
 
