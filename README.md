@@ -398,6 +398,7 @@ Business-facing SQL views were created to support reporting and dashboard develo
 - vw_executive_summary
 
 These views provide aggregated metrics for revenue analysis, customer segmentation, churn monitoring, retention analysis and executive reporting.
+
 ---
 
 # Power BI Dashboard
