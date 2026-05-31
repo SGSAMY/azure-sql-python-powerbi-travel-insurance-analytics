@@ -580,7 +580,3 @@ README.md
 # LinkedIn
 
 https://www.linkedin.com/in/satheeshgurusamy
-
-# GitHub
-
-https://github.com/SGSAMY
