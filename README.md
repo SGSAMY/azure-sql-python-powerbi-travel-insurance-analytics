@@ -287,7 +287,7 @@ Developed an interactive dashboard featuring:
 - Sales Channel
 - Sale Year
 
----
+--
 
 ### KPI Cards
 
