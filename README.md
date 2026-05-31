@@ -470,11 +470,8 @@ The Azure SQL Database was connected directly to Power BI Desktop using SQL Serv
 
 ### Satheesh Gurusamy
 
-## Connect
+### Connect With Me
 
-### LinkedIn
-
-https://www.linkedin.com/in/satheeshgurusamy
-
-### GitHub:
-https://github.com/SGSAMY
+- LinkedIn : https://www.linkedin.com/in/satheeshgurusamy
+- Web : www.sgsamy.com
+- GitHub : https://github.com/SGSAMY
