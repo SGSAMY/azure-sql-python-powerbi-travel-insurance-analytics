@@ -183,6 +183,18 @@ Key transformations included:
 - Next Best Action modelling
 - Policy Sale Date generation
 
+### Azure SQL Server
+
+![Azure SQL Server](screenshots/azure_sql_server_overview.png)
+
+### Azure SQL Database
+
+![Azure SQL Database](screenshots/azure_sql_database_overview.png)
+
+### Azure SQL Login Configuration
+
+![Azure SQL Login](screenshots/Azure%20login.png)
+
 ---
 
 ## Python Integration, EDA & Feature Engineering
@@ -219,6 +231,14 @@ Python was used to connect to Azure SQL Database, perform exploratory data analy
 - Customer Segment (Bronze, Silver, Gold, Platinum)
 - Next Best Action (Retain, Upsell, Cross Sell, Reactivate, No Action)
 - Policy Sale Date for Year-over-Year (YoY) analysis
+
+### Customer Churn Risk Distribution
+
+![Customer Churn Risk Distribution](screenshots/Customer%20Churn%20Risk%20Distribution.png)
+
+### Correlation Analysis
+
+![Correlation Analysis](screenshots/Corellation%20metrics.png)
 
 ### Azure SQL Connection Example
 
@@ -422,36 +442,6 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 - Churn Reduction
 - Marketing Effectiveness
 - Strategic Decision Making
-
----
-
-## Azure SQL Server
-
-![Azure SQL Server](screenshots/azure_sql_server_overview.png)
-
----
-
-## Azure SQL Database
-
-![Azure SQL Database](screenshots/azure_sql_database_overview.png)
-
----
-
-## Azure SQL Login Configuration
-
-![Azure SQL Login](screenshots/Azure%20login.png)
-
----
-
-## Customer Churn Risk Distribution
-
-![Customer Churn Risk Distribution](screenshots/Customer%20Churn%20Risk%20Distribution.png)
-
----
-
-## Correlation Analysis
-
-![Correlation Analysis](screenshots/Corellation%20metrics.png)
 
 ---
 
