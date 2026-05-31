@@ -532,24 +532,6 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 ---
 
-## Customer Churn Risk Distribution
-
-![Customer Churn Risk Distribution](screenshots/Customer%20Churn%20Risk%20Distribution.png)
-
----
-
-## Correlation Analysis
-
-![Correlation Analysis](screenshots/Corellation%20metrics.png)
-
----
-
-## Azure SQL Database Connection from Power BI
-
-![Power BI Azure SQL Connection](screenshots/Loading%20data%20to%20Power%20BI%20from%20Azure%20DB.png)
-
----
-
 ## Azure SQL Server
 
 ![Azure SQL Server](screenshots/azure_sql_server_overview.png)
@@ -565,7 +547,28 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 ## Azure SQL Login Configuration
 
 ![Azure SQL Login](screenshots/Azure%20login.png)
+
 ---
+
+## Customer Churn Risk Distribution
+
+![Customer Churn Risk Distribution](screenshots/Customer%20Churn%20Risk%20Distribution.png)
+
+---
+
+## Correlation Analysis
+
+![Correlation Analysis](screenshots/Corellation%20metrics.png)
+
+---
+
+## Power BI Integration
+
+The Azure SQL Database was connected directly to Power BI Desktop using SQL Server connectivity. Business-facing analytical views were imported to support dashboard development.
+
+### Power BI Connection to Azure SQL Database
+
+![Power BI Connection](screenshots/powerbi_azure_sql_connection.png)
 
 # Repository Structure
 
