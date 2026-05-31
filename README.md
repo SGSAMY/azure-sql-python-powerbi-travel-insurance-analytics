@@ -30,30 +30,30 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
-# Data Engineering
+## Data Engineering
 
 - Azure SQL Database
 - SQL Data Modelling
 - Data Cleansing
 - Data Transformation
 
-# Analytics
+## Analytics
 
 - Customer Segmentation
 - Churn Analytics
 - Retention Analytics
 - Revenue Analysis
 
-# Python
+## Python
 
 - Pandas
 - SQLAlchemy
 - Exploratory Data Analysis
 - Feature Engineering
 
-# Business Intelligence
+## Business Intelligence
 
 - Power BI
 - DAX
@@ -61,7 +61,7 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 - Interactive Reporting
 ---
 
-## Business Scenario
+# Business Scenario
 
 Travel insurance providers need to understand:
 
@@ -76,7 +76,7 @@ This solution provides stakeholders with actionable insights to support marketin
 
 ---
 
-## Technology Stack
+# Technology Stack
 
 | Technology | Purpose |
 |------------|----------|
@@ -91,7 +91,7 @@ This solution provides stakeholders with actionable insights to support marketin
 
 ---
 
-## Solution Architecture
+# Solution Architecture
 
 ```text
 Travel Insurance Dataset (CSV)
@@ -125,11 +125,11 @@ Business Insights
 
 ---
 
-## Dataset
+# Dataset
 
 A synthetic Travel Insurance dataset containing approximately 8,000 customer records was generated for analytical purposes.
 
-# Products
+## Products
 
 - Annual Multi Trip
 - Single Trip
@@ -137,7 +137,7 @@ A synthetic Travel Insurance dataset containing approximately 8,000 customer rec
 - Winter Sports
 - Cruise
 
-# Core Attributes
+## Core Attributes
 
 - Customer_ID
 - Policy_ID
@@ -155,9 +155,9 @@ A synthetic Travel Insurance dataset containing approximately 8,000 customer rec
 
 ---
 
-## Azure SQL Implementation
+# Azure SQL Implementation
 
-# Step 1 - Create Azure SQL Database
+## Step 1 - Create Azure SQL Database
 
 Created Azure SQL Database:
 
@@ -173,7 +173,7 @@ traxxxx.daxxxse.windows.net
 
 ---
 
-# Step 2 - Configure Firewall
+## Step 2 - Configure Firewall
 
 Enabled:
 
@@ -188,7 +188,7 @@ to permit access from:
 
 ---
 
-# Step 3 - Import Dataset
+## Step 3 - Import Dataset
 
 Imported travel insurance CSV data into Azure SQL using:
 
@@ -198,9 +198,9 @@ travel_insurance_raw
 
 ---
 
-## Data Engineering & SQL Layer
+# Data Engineering & SQL Layer
 
-# Raw Layer
+## Raw Layer
 
 ```sql
 travel_insurance_raw
@@ -210,7 +210,7 @@ Contains original imported data.
 
 ---
 
-# Cleansing Layer
+## Cleansing Layer
 
 Created:
 
@@ -227,7 +227,7 @@ Tasks performed:
 
 ---
 
-# Analytics Layer
+## Analytics Layer
 
 Created:
 
@@ -244,7 +244,7 @@ Added:
 
 ---
 
-# Enrichment Layer
+## Enrichment Layer
 
 Created:
 
@@ -265,7 +265,7 @@ Additional business dimensions added through Python:
 
 ---
 
- Python Integration
+## Python Integration
 
 Connected Azure SQL Database using SQLAlchemy and ODBC Driver 18.
 
@@ -289,7 +289,7 @@ Performed EDA using:
 - Pandas
 - Matplotlib
 
-# Dataset Validation
+## Dataset Validation
 
 ```python
 df.shape
@@ -299,7 +299,7 @@ df.describe()
 
 ---
 
-# Churn Risk Distribution
+## Churn Risk Distribution
 
 Histogram analysis conducted on:
 
@@ -329,7 +329,7 @@ Created business-oriented analytical fields.
 
 ---
 
-# Churn Risk Band
+## Churn Risk Band
 
 - Low
 - Medium
@@ -337,7 +337,7 @@ Created business-oriented analytical fields.
 
 ---
 
-# CLV Band
+## CLV Band
 
 - Low Value
 - Medium Value
@@ -345,14 +345,14 @@ Created business-oriented analytical fields.
 
 ---
 
-# Claim Status
+## Claim Status
 
 - Claim
 - No Claim
 
 ---
 
-# Renewal Band
+## Renewal Band
 
 - Likely Renew
 - Possible Renew
@@ -360,7 +360,7 @@ Created business-oriented analytical fields.
 
 ---
 
-# Customer Segmentation
+## Customer Segmentation
 
 - Bronze
 - Silver
@@ -371,7 +371,7 @@ based on customer value and engagement.
 
 ---
 
-# Next Best Action Model
+## Next Best Action Model
 
 Generated customer retention actions:
 
@@ -385,7 +385,7 @@ based on churn risk and customer value.
 
 ---
 
-## SQL Analytics Views
+# SQL Analytics Views
 
 Business-facing SQL views were created to support reporting and dashboard development:
 
@@ -400,13 +400,13 @@ Business-facing SQL views were created to support reporting and dashboard develo
 These views provide aggregated metrics for revenue analysis, customer segmentation, churn monitoring, retention analysis and executive reporting.
 ---
 
-## Power BI Dashboard
+# Power BI Dashboard
 
-# Executive Dashboard
+## Executive Dashboard
 
 Developed an interactive dashboard featuring:
 
-# Interactive Filters
+## Interactive Filters
 
 - Product
 - Cover Level
@@ -416,7 +416,7 @@ Developed an interactive dashboard featuring:
 
 ---
 
-# KPI Cards
+## KPI Cards
 
 - Total Customers
 - Average Churn Risk %
@@ -426,9 +426,9 @@ Developed an interactive dashboard featuring:
 
 ---
 
-# Dashboard Visuals
+## Dashboard Visuals
 
-# YoY Premium Sales by Customer Segment
+## YoY Premium Sales by Customer Segment
 
 Small multiples visual showing:
 
@@ -441,7 +441,7 @@ revenue trends across multiple years.
 
 ---
 
-# Premium Sales by Product
+## Premium Sales by Product
 
 Bar chart comparing:
 
@@ -453,7 +453,7 @@ Bar chart comparing:
 
 ---
 
-# Customer Retention Strategy Recommendations
+## Customer Retention Strategy Recommendations
 
 Treemap visual displaying:
 
@@ -467,7 +467,7 @@ for high-risk customers.
 
 ---
 
-# Churn Risk by Cover Level
+## Churn Risk by Cover Level
 
 Combination chart analysing:
 
@@ -483,7 +483,7 @@ cover levels.
 
 ---
 
-# Premium Revenue Driver Analysis
+## Premium Revenue Driver Analysis
 
 Decomposition Tree visual enabling drill-down by:
 
@@ -496,22 +496,22 @@ to identify revenue drivers and retention opportunities.
 
 ---
 
-## Key Business Insights
+# Key Business Insights
 
-# Customer Retention
+## Customer Retention
 
 - The majority of high-risk customers require **Retain** and **Upsell** interventions.
 - Retain and Upsell are the most frequently recommended customer retention actions.
 - Customer Lifetime Value (CLV) strongly influences renewal probability and retention outcomes.
 
-# Revenue Drivers
+## Revenue Drivers
 
 - Premium revenue is heavily influenced by **Product Type**, **Customer Segment**, and **Cover Level**.
 - Gold and Platinum customer segments generate the highest premium revenue and customer lifetime value.
 - Annual Multi Trip and Backpacker products generate the highest premium revenue.
 - Premium cover customers exhibit lower churn risk compared to Basic cover customers.
 
-# Strategic Recommendations
+## Strategic Recommendations
 
 - Prioritise retention campaigns for high-risk, high-value customers.
 - Increase Upsell opportunities among customers with strong renewal potential.
@@ -519,7 +519,7 @@ to identify revenue drivers and retention opportunities.
 
 ---
 
-## Project Outcomes
+# Project Outcomes
 
 Successfully delivered an end-to-end customer retention and revenue analytics platform capable of transforming raw travel insurance data into actionable business insights supporting:
 
@@ -531,30 +531,30 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 ---
 
-# Customer Churn Risk Distribution
+## Customer Churn Risk Distribution
 
 ![Customer Churn Risk Distribution](screenshots/Customer%20Churn%20Risk%20Distribution.png)
 
 ---
 
-# Correlation Analysis
+## Correlation Analysis
 
 ![Correlation Analysis](screenshots/Corellation%20metrics.png)
 
 ---
 
-# Azure SQL Database Connection from Power BI
+## Azure SQL Database Connection from Power BI
 
 ![Power BI Azure SQL Connection](screenshots/Loading%20data%20to%20Power%20BI%20from%20Azure%20DB.png)
 
 ---
 
-# Azure SQL Login Configuration
+## Azure SQL Login Configuration
 
 ![Azure SQL Login](screenshots/Azure%20login.png)
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 data/
@@ -564,7 +564,7 @@ screenshots/
 sql/
 README.md
 ```
-## Future Enhancements
+# Future Enhancements
 
 - Machine Learning Churn Prediction Model
 - Automated Azure Data Factory Pipeline
@@ -576,10 +576,10 @@ README.md
 
 ## Satheesh Gurusamy
 
-### LinkedIn
+# LinkedIn
 
 https://www.linkedin.com/in/satheeshgurusamy
 
-### GitHub
+# GitHub
 
 https://github.com/SGSAMY
