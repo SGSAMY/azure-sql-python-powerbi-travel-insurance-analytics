@@ -168,16 +168,8 @@ A synthetic Travel Insurance dataset containing approximately 8,000 customer rec
 
 ## Azure SQL Architecture
 
-The travel insurance dataset was loaded into Azure SQL Database and organised into a multi-layer architecture:
-
-- travel_insurance_raw
-- travel_insurance_clean
-- travel_insurance_analytics
-- travel_insurance_enriched
-
+The travel insurance dataset was loaded into Azure SQL Database using a multi-layer architecture designed to support data quality, analytics, and reporting.
 Azure SQL was configured to support connectivity from SSMS, Python and Power BI.
-
-The Azure SQL solution was designed using a multi-layer architecture to support data quality, analytics, and reporting.
 
 | Layer | Table | Purpose |
 |---------|---------|---------|
