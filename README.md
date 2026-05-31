@@ -33,28 +33,21 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 ##  Skills Demonstrated
 
 ### Data Engineering
-
 - Azure SQL Database
 - SQL Data Modelling
 - Data Cleansing
 - Data Transformation
-
 ### Analytics
-
 - Customer Segmentation
 - Churn Analytics
 - Retention Analytics
 - Revenue Analysis
-
 ### Python
-
 - Pandas
 - SQLAlchemy
 - Exploratory Data Analysis
 - Feature Engineering
-
 ### Business Intelligence
-
 - Power BI
 - DAX
 - Dashboard Design
