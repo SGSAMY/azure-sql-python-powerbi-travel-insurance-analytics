@@ -277,6 +277,8 @@ These views provide aggregated metrics for revenue analysis, customer segmentati
 
 ### Executive Dashboard
 
+![Executive Dashboard](screenshots/dashboard%20preview.png)
+
 Developed an interactive dashboard featuring:
 
 ### Interactive Filters
@@ -451,7 +453,7 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 The Azure SQL Database was connected directly to Power BI Desktop using SQL Server connectivity. Business-facing analytical views were imported to support dashboard development.
 
-## Power BI Connection to Azure SQL Database
+### Power BI Connection to Azure SQL Database
 
 ![Power BI Connection](screenshots/powerbi_data_import_from_azure_sql.png)
 
