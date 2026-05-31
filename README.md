@@ -568,7 +568,7 @@ The Azure SQL Database was connected directly to Power BI Desktop using SQL Serv
 
 ### Power BI Connection to Azure SQL Database
 
-![Power BI Connection](screenshots/powerbi_azure_sql_connection.png)
+![Power BI Connection](screenshots/powerbi_data_import_from_azure_sql.png)
 
 # Repository Structure
 
