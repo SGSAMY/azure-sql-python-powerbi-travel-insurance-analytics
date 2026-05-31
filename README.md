@@ -347,8 +347,6 @@ to identify revenue drivers and retention opportunities.
 
 ---
 
----
-
 ## Sample DAX Modelling
 
 The Power BI dashboard was developed using DAX calculated columns, calculated tables, and measures to support KPI reporting, customer analytics, and performance monitoring.
@@ -389,7 +387,6 @@ CALCULATE(
 )
 ```
 
----
 ---
 
 
