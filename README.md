@@ -201,6 +201,20 @@ Key transformations included:
 
 Python was used to connect to Azure SQL Database, perform exploratory data analysis (EDA), engineer analytical features, and write enriched datasets back to Azure SQL for reporting and dashboard development.
 
+### Azure SQL Connection Example
+
+```python
+from sqlalchemy import create_engine
+import pandas as pd
+
+engine = create_engine(connection_string)
+
+df = pd.read_sql(
+    "SELECT * FROM dbo.travel_insurance_enriched",
+    engine
+)
+```
+
 ### Technologies Used
 
 - Python
@@ -240,19 +254,7 @@ Python was used to connect to Azure SQL Database, perform exploratory data analy
 
 ![Correlation Analysis](screenshots/Corellation%20metrics.png)
 
-### Azure SQL Connection Example
 
-```python
-from sqlalchemy import create_engine
-import pandas as pd
-
-engine = create_engine(connection_string)
-
-df = pd.read_sql(
-    "SELECT * FROM dbo.travel_insurance_enriched",
-    engine
-)
-```
 ---
 
 ## SQL Analytics Views
