@@ -91,6 +91,17 @@ This solution provides stakeholders with actionable insights to support marketin
 
 ---
 
+# Repository Structure
+
+```text
+data/
+powerbi/
+python/
+screenshots/
+sql/
+README.md
+```
+
 # Solution Architecture
 
 ```text
@@ -157,100 +168,41 @@ A synthetic Travel Insurance dataset containing approximately 8,000 customer rec
 
 # Azure SQL Implementation
 
-## Step 1 - Create Azure SQL Database
+The travel insurance dataset was loaded into Azure SQL Database and organised into a multi-layer architecture:
 
-Created Azure SQL Database:
+- travel_insurance_raw
+- travel_insurance_clean
+- travel_insurance_analytics
+- travel_insurance_enriched
 
-```sql
-TravelInsuranceDB
-```
-
-Azure SQL Server:
-
-```sql
-traxxxx.daxxxse.windows.net
-```
+Azure SQL was configured to support connectivity from SSMS, Python and Power BI.
 
 ---
 
-## Step 2 - Configure Firewall
+## Data Engineering & SQL Architecture
 
-Enabled:
+The Azure SQL solution was designed using a multi-layer architecture to support data quality, analytics, and reporting.
 
-- Allow Azure Services
-- Allow Client IP Address
+| Layer | Table | Purpose |
+|---------|---------|---------|
+| Raw | travel_insurance_raw | Original imported dataset |
+| Clean | travel_insurance_clean | Data cleansing and validation |
+| Analytics | travel_insurance_analytics | Business rules and derived metrics |
+| Enriched | travel_insurance_enriched | Feature engineering and customer analytics |
 
-to permit access from:
+Key transformations included:
 
-- SQL Server Management Studio (SSMS)
-- Python
-- Power BI
-
----
-
-## Step 3 - Import Dataset
-
-Imported travel insurance CSV data into Azure SQL using:
-
-```sql
-travel_insurance_raw
-```
-
----
-
-# Data Engineering & SQL Layer
-
-## Raw Layer
-
-```sql
-travel_insurance_raw
-```
-
-Contains original imported data.
+- Data type standardisation
+- Null value handling
+- Churn Risk Band creation
+- CLV Band creation
+- Renewal Band creation
+- Claim Status derivation
+- Customer Segmentation
+- Next Best Action modelling
+- Policy Sale Date generation
 
 ---
-
-## Cleansing Layer
-
-Created:
-
-```sql
-travel_insurance_clean
-```
-
-Tasks performed:
-
-- Data type corrections
-- Null handling
-- Numeric conversion
-- Date validation
-
----
-
-## Analytics Layer
-
-Created:
-
-```sql
-travel_insurance_analytics
-```
-
-Added:
-
-- Churn Risk Bands
-- CLV Bands
-- Renewal Bands
-- Claim Status
-
----
-
-## Enrichment Layer
-
-Created:
-
-```sql
-travel_insurance_enriched
-```
 
 Additional business dimensions added through Python:
 
@@ -262,23 +214,6 @@ Additional business dimensions added through Python:
 - Sales_Channel
 - Next_Best_Action
 - Policy_Sale_Date
-
----
-
-## Python Integration
-
-Connected Azure SQL Database using SQLAlchemy and ODBC Driver 18.
-
-```python
-from sqlalchemy import create_engine
-import pandas as pd
-```
-
-Connection established via:
-
-- SQLAlchemy
-- ODBC Driver 18
-- Azure SQL Database
 
 ---
 
@@ -570,16 +505,7 @@ The Azure SQL Database was connected directly to Power BI Desktop using SQL Serv
 
 ![Power BI Connection](screenshots/powerbi_data_import_from_azure_sql.png)
 
-# Repository Structure
 
-```text
-data/
-powerbi/
-python/
-screenshots/
-sql/
-README.md
-```
 # Future Enhancements
 
 - Machine Learning Churn Prediction Model
