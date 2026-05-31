@@ -6,11 +6,11 @@
 
 ![Executive Dashboard](screenshots/dashboard%20preview.png)
 
-# End-to-End Azure SQL, Python, Data Engineering & Power BI Analytics Solution
+###  End-to-End Azure SQL, Python, Data Engineering & Power BI Analytics Solution
 
 ---
 
-# Project Overview
+##  Project Overview
 
 This project demonstrates an end-to-end Business Intelligence and Customer Analytics solution built using Azure SQL Database, Python, SQLAlchemy, DAX, and Power BI.
 
@@ -18,7 +18,7 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 
   ---
 
-# Project Highlights
+##  Project Highlights
 
 - Designed and implemented a multi-layer Azure SQL architecture (Raw, Clean, Analytics, Enriched)
 - Loaded and transformed travel insurance policy data in Azure SQL Database
@@ -30,30 +30,30 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 
 ---
 
-# Skills Demonstrated
+##  Skills Demonstrated
 
-## Data Engineering
+### Data Engineering
 
 - Azure SQL Database
 - SQL Data Modelling
 - Data Cleansing
 - Data Transformation
 
-## Analytics
+### Analytics
 
 - Customer Segmentation
 - Churn Analytics
 - Retention Analytics
 - Revenue Analysis
 
-## Python
+### Python
 
 - Pandas
 - SQLAlchemy
 - Exploratory Data Analysis
 - Feature Engineering
 
-## Business Intelligence
+### Business Intelligence
 
 - Power BI
 - DAX
@@ -61,7 +61,7 @@ The solution was designed to simulate a real-world Travel Insurance analytics pl
 - Interactive Reporting
 ---
 
-# Business Scenario
+## Business Scenario
 
 Travel insurance providers need to understand:
 
@@ -76,7 +76,7 @@ This solution provides stakeholders with actionable insights to support marketin
 
 ---
 
-# Technology Stack
+## Technology Stack
 
 | Technology | Purpose |
 |------------|----------|
@@ -91,7 +91,7 @@ This solution provides stakeholders with actionable insights to support marketin
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 data/
@@ -102,7 +102,7 @@ sql/
 README.md
 ```
 
-# Solution Architecture
+## Solution Architecture
 
 ```text
 Travel Insurance Dataset (CSV)
@@ -136,11 +136,11 @@ Business Insights
 
 ---
 
-# Dataset
+## Dataset
 
 A synthetic Travel Insurance dataset containing approximately 8,000 customer records was generated for analytical purposes.
 
-## Products
+### Products
 
 - Annual Multi Trip
 - Single Trip
@@ -148,7 +148,7 @@ A synthetic Travel Insurance dataset containing approximately 8,000 customer rec
 - Winter Sports
 - Cruise
 
-## Core Attributes
+### Core Attributes
 
 - Customer_ID
 - Policy_ID
@@ -242,7 +242,7 @@ df = pd.read_sql(
 ```
 ---
 
-# SQL Analytics Views
+## SQL Analytics Views
 
 Business-facing SQL views were created to support reporting and dashboard development:
 
@@ -258,13 +258,13 @@ These views provide aggregated metrics for revenue analysis, customer segmentati
 
 ---
 
-# Power BI Dashboard
+## Power BI Dashboard
 
-## Executive Dashboard
+### Executive Dashboard
 
 Developed an interactive dashboard featuring:
 
-## Interactive Filters
+### Interactive Filters
 
 - Product
 - Cover Level
@@ -274,7 +274,7 @@ Developed an interactive dashboard featuring:
 
 ---
 
-## KPI Cards
+### KPI Cards
 
 - Total Customers
 - Average Churn Risk %
@@ -286,7 +286,7 @@ Developed an interactive dashboard featuring:
 
 ## Dashboard Visuals
 
-## YoY Premium Sales by Customer Segment
+### YoY Premium Sales by Customer Segment
 
 Small multiples visual showing:
 
@@ -299,7 +299,7 @@ revenue trends across multiple years.
 
 ---
 
-## Premium Sales by Product
+### Premium Sales by Product
 
 Bar chart comparing:
 
@@ -311,7 +311,7 @@ Bar chart comparing:
 
 ---
 
-## Customer Retention Strategy Recommendations
+### Customer Retention Strategy Recommendations
 
 Treemap visual displaying:
 
@@ -325,7 +325,7 @@ for high-risk customers.
 
 ---
 
-## Churn Risk by Cover Level
+### Churn Risk by Cover Level
 
 Combination chart analysing:
 
@@ -341,7 +341,7 @@ cover levels.
 
 ---
 
-## Premium Revenue Driver Analysis
+### Premium Revenue Driver Analysis
 
 Decomposition Tree visual enabling drill-down by:
 
@@ -354,22 +354,22 @@ to identify revenue drivers and retention opportunities.
 
 ---
 
-# Key Business Insights
+## Key Business Insights
 
-## Customer Retention
+### Customer Retention
 
 - The majority of high-risk customers require **Retain** and **Upsell** interventions.
 - Retain and Upsell are the most frequently recommended customer retention actions.
 - Customer Lifetime Value (CLV) strongly influences renewal probability and retention outcomes.
 
-## Revenue Drivers
+### Revenue Drivers
 
 - Premium revenue is heavily influenced by **Product Type**, **Customer Segment**, and **Cover Level**.
 - Gold and Platinum customer segments generate the highest premium revenue and customer lifetime value.
 - Annual Multi Trip and Backpacker products generate the highest premium revenue.
 - Premium cover customers exhibit lower churn risk compared to Basic cover customers.
 
-## Strategic Recommendations
+### Strategic Recommendations
 
 - Prioritise retention campaigns for high-risk, high-value customers.
 - Increase Upsell opportunities among customers with strong renewal potential.
@@ -377,7 +377,7 @@ to identify revenue drivers and retention opportunities.
 
 ---
 
-# Project Outcomes
+## Project Outcomes
 
 Successfully delivered an end-to-end customer retention and revenue analytics platform capable of transforming raw travel insurance data into actionable business insights supporting:
 
@@ -423,12 +423,12 @@ Successfully delivered an end-to-end customer retention and revenue analytics pl
 
 The Azure SQL Database was connected directly to Power BI Desktop using SQL Server connectivity. Business-facing analytical views were imported to support dashboard development.
 
-### Power BI Connection to Azure SQL Database
+## Power BI Connection to Azure SQL Database
 
 ![Power BI Connection](screenshots/powerbi_data_import_from_azure_sql.png)
 
 
-# Future Enhancements
+## Future Enhancements
 
 - Machine Learning Churn Prediction Model
 - Automated Azure Data Factory Pipeline
@@ -436,13 +436,15 @@ The Azure SQL Database was connected directly to Power BI Desktop using SQL Serv
 - Incremental Data Refresh
 - Customer Lifetime Value Forecasting
   
-# Author
+## Author
 
-## Satheesh Gurusamy
+### Satheesh Gurusamy
 
-# LinkedIn
+## Connect
+
+### LinkedIn
 
 https://www.linkedin.com/in/satheeshgurusamy
 
-# GitHub:
+### GitHub:
 https://github.com/SGSAMY
